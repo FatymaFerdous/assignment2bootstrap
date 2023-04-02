@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <section>
+        <nav class="navbar bg-body-tertiary fixed-top bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="reshot-icon-science-7QTYM62KPF.svg" alt="Bootstrap" width="30" height="30">
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SCIORB</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Technology
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-white" href="#">Services</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Gadgets</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- slider -->
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade w-100 my-0" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="J4o.gif" class="d-block w-100 " alt="...">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>SCIORB</h3>
+                        <p>Your first priority should be us.</p>
+                        <a href="contact.html"><button type="button" class="btn btn-outline-info">Contact
+                                Us</button></a>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="VJi.gif" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>SCIORB</h3>
+                        <p>Get best for yourself from us.</p>
+                        <a href="contact.html"><button type="button" class="btn btn-info">Contact Us</button></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- About -->
+    <section>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="undraw_Programmer_re_owql.png" class="img-fluid" alt="">
+                </div>
+                <div class=" container my-md-5 col-md-6 py-md-5 justify-content-center align-items-center">
+                    <h3 class="mb-0">About Us</h3>
+                    <div class="mb-1 text-body-secondary">since 2012</div>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias obcaecati
+                        veniam
+                        necessitatibus? Ipsa nobis dolorum laudantium? Dolore, ea maiores! Perspiciatis quo unde esse,
+                        tempore harum laudantium fugiat in blanditiis veniam.
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, expedita. Quam iure totam dicta
+                        deleniti, est nulla tenetur eius dolor similique voluptatibus odit quae
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- <div data-aos="zoom-in" class="col-md-6 container-fluid mx-auto">
+            <div class="row g-0  rounded overflow-hidden flex-md-row mb-4  h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static order-2 my-5">
+                    <h3 class="mb-0 ">About</h3>
+                    <div class="mb-1 text-body-secondary">since 2012</div>
+                    <p class="mb-auto text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, expedita. Quam
+                        iure
+                        totam dicta deleniti, est nulla tenetur eius dolor similique voluptatibus doloremque nemo
+                        molestias
+                        harum consequuntur quis sint, quia ab deserunt fugit, ratione error consectetur omnis odit quae
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, expedita. Quam iure totam dicta
+                        deleniti, est nulla tenetur eius dolor similique voluptatibus odit quae
+                    </p>
+                </div>
+                <div class="col-auto d-none d-lg-block order-1">
+                    <img src="undraw_Programmer_re_owql.png" width="450" height="500" alt="" class="img-fluid">
+
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- qualities -->
+    <section>
+        <div class="container-fluid my-5 mx-auto mx-5">
+            <div class="row align-items-center justify-content-center flex-column flex-md-row">
+                <div class="col-6 col-md-2 px-4 px-md-5">
+                    <div class="text-center">
+                        <img src="f1.png" alt="">
+                        <h6>Budget Friendly</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2 px-4 px-md-5">
+                    <div class="text-center">
+                        <img src="f2.png" alt="">
+                        <h6>Quick turn around</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2 px-4 px-md-5">
+                    <div class="text-center">
+                        <img src="f4.png" alt="">
+                        <h6>Promotions</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2 px-4 px-md-5">
+                    <div class="text-center">
+                        <img src="f5.png" alt="">
+                        <h6>Unlimited Revisions</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2 px-4 px-md-5">
+                    <div class="text-center">
+                        <img src="f6.png" alt="">
+                        <h6>24/7 Support</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section>
+        <div class="bg-info my-5 py-5">
+            <h1 class="text-center ">SERVICES</h1>
+            <div class="container py-5 ">
+                <div class="row justify-content-center mx-auto">
+                    <div class="col-md-6 col-lg-3 mb-4" data-aos="flip-left">
+                        <div class="border p-3">
+                            <div class="text-center">
+                                <img width="128px" src="reshot-icon-social-marketing-RPU8FMQ9AE.svg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h5 class="text-uppercase py-2">Marketing</h5>
+                                <p class="">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi aliquid vitae,
+                                    voluptas
+                                    corrupti iusto eius accusamus excepturi consectetur hic reiciendis fugit et
+                                    perspiciatis! Quaerat, qui nulla? Eligendi fugit at quas.
+                                </p>
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="btn btn-outline-dark"><a href="contact.html"> Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12 col-lg-3 mb-4" data-aos="flip-left">
+                        <div class="border p-3">
+                            <div class="text-center">
+                                <img width="128px" src="reshot-icon-web-development-9DULN7AY6S.svg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h5 class="text-uppercase py-2">Web Development</h5>
+                                <p class="">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi aliquid vitae,
+                                    voluptas
+                                    corrupti iusto eius accusamus excepturi consectetur hic reiciendis fugit et
+                                    perspiciatis! Quaerat, qui nulla? Eligendi fugit at quas.
+                                </p>
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="btn btn-outline-dark"><a href="contact.html"> Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-12 col-lg-3 mb-4" data-aos="flip-left">
+                        <div class="border p-3">
+                            <div class="text-center">
+                                <img width="128px" src="reshot-icon-rgb-XYU9RM2NLK.svg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h5 class="text-uppercase py-2">Graphic Design</h5>
+                                <p class="">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi aliquid vitae,
+                                    voluptas
+                                    corrupti iusto eius accusamus excepturi consectetur hic reiciendis fugit et
+                                    perspiciatis! Quaerat, qui nulla? Eligendi fugit at quas.
+                                </p>
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="btn btn-outline-dark"><a href="contact.html"> Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12 col-lg-3 mb-4" data-aos="flip-left">
+                        <div class="border p-3">
+                            <div class="text-center">
+                                <img width="128px" src="reshot-icon-seo-copywriting-D6UF9QKYHM.svg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h5 class="text-uppercase py-2">Content Writing</h5>
+                                <p class="">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi aliquid vitae,
+                                    voluptas
+                                    corrupti iusto eius accusamus excepturi consectetur hic reiciendis fugit et
+                                    perspiciatis! Quaerat, qui nulla? Eligendi fugit at quas.
+                                </p>
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="btn btn-outline-dark"><a href="contact.html"> Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0" data-aos="flip-left">
+                        <div class="border p-3">
+                            <div class="text-center">
+                                <img width="128px" src="reshot-icon-virtual-assistant-ZGA68W9LVM.svg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h5 class="text-uppercase py-2">Virtual Assistant</h5>
+                                <p class="">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi aliquid vitae,
+                                    voluptas
+                                    corrupti iusto eius accusamus excepturi consectetur hic reiciendis fugit et
+                                    perspiciatis! Quaerat, qui nulla? Eligendi fugit at quas.
+                                </p>
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="btn btn-outline-dark"><a href="contact.html"> Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0" data-aos="flip-left">
+                        <div class="border p-3">
+                            <div class="text-center">
+                                <img width="128px" src="copyright-regular.svg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <h5 class="text-uppercase py-2">Copywriting</h5>
+                                <p class="">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi aliquid vitae,
+                                    voluptas
+                                    corrupti iusto eius accusamus excepturi consectetur hic reiciendis fugit et
+                                    perspiciatis! Quaerat, qui nulla? Eligendi fugit at quas.
+                                </p>
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="btn btn-outline-dark"><a href="contact.html"> Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gadgets -->
+    <section>
+        <div class="text-center container-fluid">
+            <h1 class="text-info" data-aos="flip-up">GADGETS</h1>
+            <img src="XDZT.gif" alt="" class="mx-auto" height="150px" width="150px" data-aos="zoom-in-up">
+        </div>
+        <div class="container-fluid">
+
+            <!-- 1 -->
+            <div class="row featurette d-flex justify-content-center align-items-center my-5">
+                <div class="col-md-7 px-5 " data-aos="zoom-out-right">
+                    <h2 class="featurette-heading fw-normal text-info lh-1">HOTO Flashlight Lite <span
+                            class="badge bg-dark">New</span></h2>
+                    <p class="lead">This compact flashlight became an instant favorite of ours by offering an
+                        impossibly
+                        elegant
+                        aluminum build, incredible versatility, excellent battery life, and a USB-C connector for
+                        recharging
+                        it.
+                        Thanks to a bundled light diffuser, the gadget can quickly transform from a high-powered
+                        flashlight
+                        with
+                        stellar zoom capabilities to a lamp for use while camping or on the road. <br>
+
+                        We like the flashlight's integrated hook for attaching it to items. its intuitive button
+                        controls
+                        include an SOS button for use during emergencies.</p>
+                </div>
+                <div class="col-md-5" data-aos="zoom-out-right">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="1.jpg" alt="">
+
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="row featurette d-flex justify-content-center align-items-center my-5">
+                <div class="col-md-7 px-5 order-md-2" data-aos="zoom-in-down">
+                    <h2 class="featurette-heading fw-normal text-info lh-1">Belkin MagSafe 2-in-1 Wireless Charger
+                    </h2>
+                    <p class="lead">This 2-in-1 wireless charger by Belkin is a must-have MagSafe accessory for new
+                        iPhone
+                        12
+                        and iPhone 13 owners. It can simultaneously charge an iPhone and a set of AirPods with a
+                        wireless
+                        charging case. <br>
+
+                        Available in black or white, the accessory has a minimalist design and exceptional build
+                        quality.
+                        Belkin
+                        backs it with a 2-year warranty.
+                        here.</p>
+                </div>
+                <div class="col-md-5 order-md-1" data-aos="zoom-in-down">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="2.jpg" alt="">
+
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="row featurette d-flex justify-content-center align-items-center my-5">
+                <div class="col-md-7 px-5" data-aos="zoom-out-right">
+                    <h2 class="featurette-heading fw-normal text-info lh-1">Anker 737 Power Bank</h2>
+                    <p class="lead">Anker's 737 Power Bank can charge your laptop via a fast USB-C connector with a
+                        maximum
+                        power output of 140 watts. It has a battery pack with ample capacity, and rather
+                        impressively, a
+                        color
+                        screen to help you keep tabs on the charging process. The accessory rocks a pair of USB-C
+                        ports
+                        and
+                        a
+                        USB-A connector, so you can simultaneously charge up to three devices.</p>
+                </div>
+                <div class="col-md-5" data-aos="zoom-out-right">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="3 .jpg" alt="">
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="row featurette d-flex justify-content-center align-items-center my-5 ">
+                <div class="col-md-7 px-5 order-md-2" data-aos="zoom-in-down">
+                    <h2 class="featurette-heading fw-normal text-info lh-1">Apple AirTag Tracker</h2>
+                    <p class="lead">Apple's affordable AirTag tracker is a must-have tech gadget for any iPhone
+                        owner
+                        because it
+                        can seamlessly keep tabs on just about anything you attach it to. <br>
+
+                        When out of your iPhone's range, the AirTag will update its location when it comes in
+                        proximity
+                        to a
+                        device that's part of Apple's Find My network (there are almost a billion of them).
+
+                        The AirTag is water- and dust-resistant with an IP67 rating, and its replaceable battery can
+                        last up
+                        to
+                        a year.</p>
+                </div>
+                <div class="col-md-5 order-md-1" data-aos="zoom-in-down">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="4.jpg" alt="">
+
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="row featurette d-flex justify-content-center align-items-center my-5 ">
+                <div class="col-md-7 px-5" data-aos="zoom-out-right">
+                    <h2 class="featurette-heading fw-normal text-info lh-1">Petcube Bites 2 Pet Camera with Treat
+                        Dispenser
+                    </h2>
+                    <p class="lead">This is by far the coolest gadget out there for pet owners. The sleek Petcube
+                        Bites
+                        2
+                        camera
+                        allows you to keep an eye on your pet while you're not home through Wi-Fi connectivity and
+                        can
+                        even
+                        deploy a treat for them right from your smartphone. <br>
+
+                        Other key features of the Petcube Bites 2 include two-way audio connectivity, compatibility
+                        with
+                        Amazon
+                        Alexa voice commands, as well as the ability to send sound and motion alerts. We also like
+                        that
+                        there's
+                        an option to use the product to connect to a veterinarian.</p>
+                </div>
+                <div class="col-md-5" data-aos="zoom-out-right">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" src="5.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- progress -->
+    <section>
+        <div class="container">
+            <h3 class="text-center">Technology Progresss</h3>
+            <div class="mb-1 text-center text-body-secondary">According to last 5 years.</div>
+            <br>
+            <p>2018 </p>
+            <div class="progress" role="progressbar" aria-label="info example" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 10%"></div>
+            </div>
+            <br>
+            <p>2019 </p>
+            <div class="progress" role="progressbar" aria-label="info example" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 12%"></div>
+            </div>
+            <br>
+            <p>2020 </p>
+            <div class="progress" role="progressbar" aria-label="info example" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 22%"></div>
+            </div>
+            <br>
+            <p>2021</p>
+            <div class="progress" role="progressbar" aria-label="info example" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 41%"></div>
+            </div>
+            <br>
+            <p>2022 </p>
+            <div class="progress" role="progressbar" aria-label="info example" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar bg-info" style="width: 83%"></div>
+            </div>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt quo illo excepturi aspernatur
+                quasi.
+                Laboriosam nesciunt doloribus iste unde non eos ex, sunt tempore aperiam quam numquam ea
+                perspiciatis
+                dignissimos.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt quo illo excepturi
+                aspernatur quasi.
+                Laboriosam nesciunt doloribus iste unde non eos ex, sunt tempore aperiam quam numquam ea
+                perspiciatis
+                dignissimos.</p>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section>
+        <footer class="bd-footer py-4 py-md-5 mt-5 bg-info">
+            <div class="container py-4 py-md-5 px-4 px-md-3 text-dark">
+                <div class="row">
+                    <div class="col-lg-3 mb-3">
+                        <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none"
+                            href="/" aria-label="Bootstrap">
+                            <img src="reshot-icon-science-7QTYM62KPF.svg" alt="" width="40" height="32">
+
+                            <title>Bootstrap</title>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                                fill="currentColor"></path>
+                            </svg>
+                            <span class="fs-5">SCIORB</span>
+                        </a>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, tenetur
+                                velit
+                                aliquam facilis ipsam ad iure fugit sint deserunt sapiente nostrum accusantium non.
+                                Excepturi soluta deleniti eligendi, molestias illum ipsam. </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                        <h5>Services</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Marketing</li>
+                            <li class="mb-2">Content Writing</li>
+                            <li class="mb-2">Copywriting</li>
+                            <li class="mb-2">Web Development</li>
+                            <li class="mb-2">Graphic Design</li>
+                            <li class="mb-2">Virtual Assistant</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h5>Contact Us</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="https://www.facebook.com/"><img src="facebook.svg" alt=""
+                                        width="40" height="32"></a></li>
+                            <li class="mb-2"><a href="https://www.instagram.com/accounts/login/"><img
+                                        src="instagram (1).svg" alt="" width="40" height="32"></a></li>
+                            <li class="mb-2"><a href="https://twitter.com/settings/account?lang=en"><img
+                                        src="twitter.svg" alt="" width="40" height="32"></a></li>
+                            <li class="mb-2"><a href="https://mail.google.com/mail/"><img src="envelope-regular.svg"
+                                        alt="" width="40" height="32"></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-4 mb-3">
+                        <form>
+                            <h5>Want to get access?</h5>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-outline-dark" type="button">login</button>
+                            </div>
+                        </form>
+                        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                            <p>© 2023 Company, Inc. All rights reserved.</p>
+                        </div>
+
+                    </div>
+                </div>
+        </footer>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
